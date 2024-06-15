@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background-color: #1e215d;
+    background-color: #1F2020;
     color: #fff;
     padding: 15px 0;
     text-align: center;
@@ -36,7 +36,11 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 180px; /* Aumente este valor para mais espaçamento */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margem direita do último item para evitar espaço extra */
 }
 
 nav ul li a {
@@ -52,12 +56,25 @@ nav ul li a:hover {
 section {
     padding: 80px 0;
     text-align: center;
+    margin-bottom: 80px; /* Added margin to space out sections */
 }
 
 section h2 {
     font-size: 2.5em;
     margin-bottom: 40px;
     color: #fff;
+}
+
+.secao-azul {
+    background-color: #9c27b0;
+}
+
+.secao-roxo {
+    background-color: #5E17EB;
+}
+
+.secao-rosa {
+    background-color: #CD86FE;
 }
 
 .servico, .produto {
@@ -82,7 +99,7 @@ section h2 {
     width: 30%;
     margin: 0 1%;
     padding: 20px;
-    background-color: #9c27b0;
+    background-color: #5E17EB;
     color: #fff;
 }
 
@@ -99,6 +116,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 15px 0;
+    margin-top: 80px; /* Added margin to space out from previous section */
 }
 
 footer a {
