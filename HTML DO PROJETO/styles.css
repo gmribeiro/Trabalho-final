@@ -98,15 +98,13 @@ section h2 {
     vertical-align: top;
     width: 20%;
     margin: 0 1%;
-    padding: 20px;
-    background-color: #000000;
     color: #fff;
 }
 
 .membro img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     margin-bottom: 10px;
 }
