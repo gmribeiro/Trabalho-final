@@ -26,8 +26,8 @@ header {
 }
 
 header img {
-    margin-left: -35px;
     user-select: none;
+    max-width: 20%; /* Garante que a imagem não ultrapasse a largura do contêiner */
 }
 
 nav ul {
