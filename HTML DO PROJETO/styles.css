@@ -48,13 +48,12 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.2em;
     padding: 10px;
-    transition: background-color 0.3s, color 0.3s; /* Transição suave para o efeito de hover */
 }
 
 nav ul li a:hover {
     background-color: #fff;
     color: #5E17EB;
-    border-radius: 30px; /* Adiciona bordas arredondadas ao efeito de hover */
+    border-radius: 5px;
 }
 
 section {
@@ -119,17 +118,4 @@ footer {
     text-align: center;
     padding: 30px 0;
     margin-top: 80px; /* Added margin to space out from previous section */
-}
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-}
-
-@media (max-width: 768px) {
-    .membro {
-        width: 100%;
-        margin: 0;
-        margin-bottom: 20px;
-    }
 }
