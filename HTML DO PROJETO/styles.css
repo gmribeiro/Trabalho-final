@@ -48,12 +48,13 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.2em;
     padding: 10px;
+    transition: background-color 0.5s ease, color 0.5s ease; /* Transição suave para o efeito de hover */
 }
 
 nav ul li a:hover {
     background-color: #fff;
     color: #5E17EB;
-    border-radius: 5px;
+    border-radius: 5px; /* Adiciona bordas arredondadas ao efeito de hover */
 }
 
 section {
@@ -113,9 +114,21 @@ section h2 {
 }
 
 footer {
-    background-color: #000000;
     color: #fff;
     text-align: center;
-    padding: 30px 0;
-    margin-top: 80px; /* Added margin to space out from previous section */
+    padding: 40px 0;
+    margin-top: 50px; /* Added margin to space out from previous section */
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .membro {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
 }
