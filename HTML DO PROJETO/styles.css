@@ -135,3 +135,47 @@ footer a {
         margin-bottom: 20px;
     }
 }
+/* Estilos para telas menores que 768px */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px; /* Reduz o padding lateral para telas menores */
+    }
+
+    header img {
+        max-width: 40%; /* Aumenta a largura da imagem do cabeçalho para ocupar mais espaço */
+    }
+
+    nav ul {
+        display: block; /* Muda a lista de navegação para um bloco */
+        text-align: center; /* Centraliza os itens da lista */
+    }
+
+    nav ul li {
+        display: block; /* Transforma os itens da lista em blocos individuais */
+        margin: 0;
+        margin-bottom: 10px; /* Adiciona espaço entre os itens da lista */
+    }
+
+    nav ul li a {
+        padding: 10px 0; /* Ajusta o padding dos links para espaçamento vertical */
+        display: block; /* Faz os links ocuparem toda a largura disponível */
+    }
+
+    .servico, .produto {
+        margin-bottom: 40px; /* Reduz o espaçamento entre os serviços e produtos */
+    }
+
+    .servico img, .produto img {
+        width: 100%; /* Faz as imagens dos serviços e produtos ocuparem toda a largura disponível */
+    }
+
+    .membro {
+        width: 100%; /* Faz os membros da equipe ocuparem a largura total */
+        margin-bottom: 20px; /* Adiciona espaçamento entre os membros da equipe */
+    }
+
+    .membro img {
+        width: 100%; /* Faz as imagens dos membros da equipe ocuparem toda a largura disponível */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+}
