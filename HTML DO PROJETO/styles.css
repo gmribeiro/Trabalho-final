@@ -73,6 +73,10 @@ section h2 {
     background-color: #925AFE;
 }
 
+.secao-azul img {
+    width: 600px;
+}
+
 .secao-roxo {
     background-color: #5E17EB;
 }
