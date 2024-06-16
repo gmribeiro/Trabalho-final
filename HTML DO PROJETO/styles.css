@@ -54,7 +54,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #fff;
     color: #5E17EB;
-    border-radius: 5px; /* Adiciona bordas arredondadas ao efeito de hover */
+    border-radius: 30px; /* Adiciona bordas arredondadas ao efeito de hover */
 }
 
 section {
