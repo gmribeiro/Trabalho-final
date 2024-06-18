@@ -10,12 +10,13 @@ body {
     line-height: 1.6;
     background-color: #f2f2f2;
     color: #333;
+    margin: 0; /* Certifique-se de que não há margem no body */
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 0 px;
+    padding: 20px 0;
 }
 
 header {
@@ -32,6 +33,7 @@ header img {
 
 nav ul {
     list-style-type: none;
+    padding: 0; /* Remove padding padrão do ul */
 }
 
 nav ul li {
@@ -59,18 +61,21 @@ nav ul li a:hover {
 
 section {
     padding: 80px 0;
-    text-align: center;
+    text-align: left;
 }
 
 section h2 {
     font-size: 2.5em;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     color: #fff;
 }
 
 .secao-azul {
     position: relative;
-    background-color: #9259FE;
+    width: 100%; /* Garante que a seção ocupe toda a largura da tela */
+    background-color: #5D17EB;
+    color: #fff;
+    padding: 0; /* Remove qualquer padding padrão */
 }
 
 .secao-azul img {
@@ -78,89 +83,4 @@ section h2 {
     width: 700px;
     padding-bottom: 20px;
     float: left;
-}
-
-.secao-roxo {
-    background-color: #5D17EB;
-}
-
-.secao-rosa {
-    background-color: #431ca0;
-}
-
-.servico, .produto {
-    margin-bottom: 60px;
-}
-
-.servico h3, .produto h3 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #fff;
-}
-
-.servico p, .produto p {
-    font-size: 1.2em;
-    color: #f2f2f2;
-    line-height: 1.8;
-}
-
-.membro {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin: 0 1%;
-    color: #fff;
-}
-
-.membro img {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    margin-bottom: 10px;
-}
-
-footer {
-    color: #ffffff;
-    text-align: center;
-    padding: 40px 0;
-}
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-}
-
-@media (max-width: 768px) {
-    .membro {
-        width: 100%;
-        margin: 0;
-        margin-bottom: 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    .container {
-        padding: 0 10px; 
-    }
-
-    header img {
-        max-width: 40%; 
-    }
-
-    nav ul {
-        display: block; 
-        text-align: center; 
-    }
-
-    nav ul li {
-        display: block; 
-        margin: 0;
-        margin-bottom: 10px; 
-    }
-
-    nav ul li a {
-        padding: 10px 0; 
-        display: block; 
-    }
 }
