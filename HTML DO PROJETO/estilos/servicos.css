@@ -81,6 +81,11 @@ section h2 {
     background-color: #5E17EB;
 }
 
+.secao-roxo img {
+    padding-top: 50px;
+    width: 700px;
+}
+
 .secao-rosa {
     background-color: #431ca0;
 }
