@@ -69,16 +69,19 @@ section h2 {
 }
 
 .secao-azul {
-    background-color: #925AFE;
+    position: relative;
+    background-color: #9259FE;
 }
 
 .secao-azul img {
-    padding-top: 50px;
-    width: 400px;
+    padding-top: 5px;
+    width: 700px;
+    padding-bottom: 20px;
+    float: left;
 }
 
 .secao-roxo {
-    background-color: #5E17EB;
+    background-color: #5D17EB;
 }
 
 .secao-rosa {
