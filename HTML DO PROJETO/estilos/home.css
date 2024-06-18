@@ -72,15 +72,12 @@ section h2 {
 
 .secao-azul {
     position: relative;
-    width: 100%; /* Garante que a seção ocupe toda a largura da tela */
     background-color: #5D17EB;
     color: #fff;
-    padding: 0; /* Remove qualquer padding padrão */
 }
 
 .secao-azul img {
     padding-top: 5px;
-    width: 700px;
     padding-bottom: 20px;
-    float: left;
+    width: 70%;
 }
