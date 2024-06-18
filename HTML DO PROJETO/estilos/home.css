@@ -160,22 +160,4 @@ footer a {
         padding: 10px 0; 
         display: block; 
     }
-
-    .servico, .produto {
-        margin-bottom: 40px; 
-    }
-
-    .servico img, .produto img {
-        width: 100%; 
-    }
-
-    .membro {
-        width: 100%; 
-        margin-bottom: 20px; 
-    }
-
-    .membro img {
-        width: 100%; 
-        height: auto; 
-    }
 }
