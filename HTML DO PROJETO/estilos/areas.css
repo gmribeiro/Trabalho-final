@@ -101,22 +101,6 @@ section h2 {
     line-height: 1.8;
 }
 
-.membro {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin: 0 1%;
-    color: #fff;
-}
-
-.membro img {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    margin-bottom: 10px;
-}
-
 footer {
     color: #ffffff;
     text-align: center;
@@ -127,12 +111,3 @@ footer a {
     color: #fff;
     text-decoration: none;
 }
-
-@media (max-width: 768px) {
-    .membro {
-        width: 100%;
-        margin: 0;
-        margin-bottom: 20px;
-    }
-}
-
